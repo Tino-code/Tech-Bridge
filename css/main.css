@@ -534,7 +534,7 @@ color: #E1D6C1;
   }
 
 
-  @media only screen and (max-width: 456px) {
+  @media only screen and (max-width: 556px) {
 
     .Card{
         display: flex;

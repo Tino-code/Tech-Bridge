@@ -204,5 +204,43 @@ letter-spacing: 0.21px;
     }
 
 
+    @media only screen and (max-width: 768px) {
+        section {
+            width: 100%;
+        }
+
+        .PJ{
+            width: 100%;
+        }
+        .tabs , .aTabs,.cTabs ,.pTabs,.currentTab{
+         width: 100%;
+        }
+        .cRow{
+            width: auto;
+         
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .cRow img{
+            width: 200px;
+            height: 120px;
+        }
+        .cRow .info p{
+            font-size: 12px;
+        }
+        .cRow .info h5{
+            font-size: 12px;
+        }
+
+    }
+
+    @media only screen and (max-width: 556px) {
+        .cRow img{
+            width: 110px;
+            height: 80px;
+            border-radius: 0px;
+        }
+    }
+
 
     
