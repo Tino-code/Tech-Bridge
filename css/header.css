@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Briem+Hand:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Poetsen+One&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@100..900&family=Poetsen+One&family=Quicksand:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Inter:wght@100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Poetsen+One&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+   
+
+}
+
+body{
+    font-family: inter;
+}
+nav{
+    
+    display: flex;
+    padding: 7px 24px;
+    align-items: center;
+    gap: 200px;
+    background: #000032;
+   
+}
+.logo img{
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+}
+  
+.ul-li{
+    display: flex;
+    width:auto;
+    align-items: center;
+    gap: 35px;
+    flex-shrink: 0;
+    list-style: none;
+    justify-content: center;
+
+ 
+}
+ul{
+    display: flex;
+    width:auto;
+    align-items:center;
+  
+    flex-shrink: 0;
+    list-style: none;
+    justify-content:space-evenly;
+    width: 850px;
+}
+
+ul li{
+   
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #E9E3D2;
+
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+header li:hover{
+    border: 1.5px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+.Active{
+    border: 1.5px solid white;
+    padding: 10px;
+    text-align: center;
+ 
+}
+
+.BT1{
+    font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+width: 79px;
+height: 32px;
+padding: 11px 18px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #E9E3D2;
+outline: none;
+border: none;
+}
+
+.BT1 a{
+    color: #131346;
+    text-decoration: none;
+}
+
+.Div-BT1{
+    margin-left: 370px;
+    
+}
+
+
+
+/* Default styles */
+
+/* Styles for the hamburger menu icon */
+.hamburger-menu {
+    display: none;  /* Show the hamburger menu on smaller screens */
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;  /* Set cursor to pointer on hover */
+  }
+  
+  .hamburger-menu i {
+    font-size: 20px;  /* Adjust icon size */
+    color: #fff;  /* Set icon color */
+  }
+  
+  /* Styles for the nav content wrapper */
+  .nav-content {
+    display: flex;
+    justify-content: space-between;  /* Align items horizontally */
+    align-items: center;
+  }
+  
+  /* Styles for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .hamburger-menu{
+        display: flex;
+        margin-left:80% ;
+    }
+    nav {
+      flex-direction: row;  /* Stack items vertically on small screens */
+      gap: 20px;
+      padding: 20px;
+    }
+  
+    .logo {
+      display: flex;  /* Hide logo on small screens */
+    }
+  
+    ul {
+      position: fixed;  /* Make the menu fixed when open */
+      top: 0;  /* Position the menu at the top of the viewport */
+      left: -200%;  /* Initially hide the menu off-screen to the left */
+      width: 100%;  /* Make the menu full width */
+      height: 100vh;  /* Make the menu full viewport height */
+      background-color: #000032;  /* Set background color for menu */
+      padding: 10px;  /* Add padding to menu items */
+      transition: left 0.3s ease-in-out;  /* Add smooth transition for opening/closing */
+     
+    }
+
+    .Div-BT1{
+        margin-left: 35%;
+        padding-top: 20px;
+    }
+  
+    /* Styles for the open menu state */
+    nav ul.show {
+      left: 0;  /* Slide the menu into view when 'show' class is added */
+    }
+  }
+  
