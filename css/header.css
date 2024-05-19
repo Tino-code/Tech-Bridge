@@ -137,8 +137,9 @@ border: none;
   }
   
   .hamburger-menu i {
-    font-size: 20px;  /* Adjust icon size */
+    font-size: 34px;  /* Adjust icon size */
     color: #fff;  /* Set icon color */
+   
   }
   
   /* Styles for the nav content wrapper */
@@ -152,7 +153,7 @@ border: none;
   @media (max-width: 768px) {
     .hamburger-menu{
         display: flex;
-        margin-left:80% ;
+        margin-left:70% ;
     }
     nav {
       flex-direction: row;  /* Stack items vertically on small screens */
@@ -161,7 +162,7 @@ border: none;
     }
   
     .logo {
-      display: flex;  /* Hide logo on small screens */
+      display:inline;  /* Hide logo on small screens */
     }
   
     ul {
@@ -173,7 +174,9 @@ border: none;
       background-color: #000032;  /* Set background color for menu */
       padding: 10px;  /* Add padding to menu items */
       transition: left 0.3s ease-in-out;  /* Add smooth transition for opening/closing */
-     
+     display: flex;
+     flex-direction: column;
+
     }
 
     .Div-BT1{
@@ -184,6 +187,11 @@ border: none;
     /* Styles for the open menu state */
     nav ul.show {
       left: 0;  /* Slide the menu into view when 'show' class is added */
+    }
+
+    .ul-li{
+      display: flex;
+      flex-direction: column;
     }
   }
   
