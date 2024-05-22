@@ -4,6 +4,7 @@ display: flex;
 justify-content: center;
 padding-top: 50px;
 padding-bottom: 50px;
+width: auto !important;
     
 }
 section{
@@ -215,3 +216,57 @@ line-height: 21px; /* 150% */
 
 
 }
+
+@media (max-width: 768px) {
+*{
+    border:2px solid rgb(0, 102, 255);
+}
+    main{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+section{
+    width: 100%;
+    border:2px solid red;
+}
+
+form input{
+ 
+    width: 100%;
+    height: 46px;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #DBE0E5;
+    background: #FFF;
+    }
+    
+
+    form textarea{
+        border-radius: 12px;
+    border: 1px solid #DBE0E5;
+    background: #FFF;
+    
+    width: 100%;
+    height: 144px;
+    padding: 15px;
+    
+    
+    flex-shrink: 0;
+    }
+
+    form{
+        width: 100%;
+        border:2px solid rgb(153, 0, 255);
+    }
+
+    .bt{
+        width: 100%;
+    }
+
+    .legal{
+        gap: 130px;
+    }
+    }
+    
+

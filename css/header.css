@@ -59,7 +59,7 @@ ul{
     flex-shrink: 0;
     list-style: none;
     justify-content:space-evenly;
-    width: 850px;
+    width: 800px;
 }
 
 ul li{
@@ -125,15 +125,11 @@ border: none;
 }
 
 
-
-/* Default styles */
-
-/* Styles for the hamburger menu icon */
 .hamburger-menu {
-    display: none;  /* Show the hamburger menu on smaller screens */
+    display: none; 
     justify-content: center;
     align-items: center;
-    cursor: pointer;  /* Set cursor to pointer on hover */
+    cursor: pointer;  
   }
   
   .hamburger-menu i {
@@ -184,9 +180,9 @@ border: none;
         padding-top: 20px;
     }
   
-    /* Styles for the open menu state */
+    
     nav ul.show {
-      left: 0;  /* Slide the menu into view when 'show' class is added */
+      left: 0;  
     }
 
     .ul-li{
