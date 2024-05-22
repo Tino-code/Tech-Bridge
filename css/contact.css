@@ -218,9 +218,7 @@ line-height: 21px; /* 150% */
 }
 
 @media (max-width: 768px) {
-*{
-    border:2px solid rgb(0, 102, 255);
-}
+
     main{
         padding: 0px;
         margin: 0px;
@@ -228,7 +226,7 @@ line-height: 21px; /* 150% */
     }
 section{
     width: 100%;
-    border:2px solid red;
+   
 }
 
 form input{
@@ -257,7 +255,7 @@ form input{
 
     form{
         width: 100%;
-        border:2px solid rgb(153, 0, 255);
+        
     }
 
     .bt{
