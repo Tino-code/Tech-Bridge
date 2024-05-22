@@ -117,10 +117,13 @@ border: none;
 .BT1 a{
     color: #131346;
     text-decoration: none;
+    display: none !important;
 }
 
 .Div-BT1{
     margin-left: 370px;
+    display: none !important;
+    
     
 }
 

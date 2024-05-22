@@ -187,7 +187,7 @@ letter-spacing: 0.21px;
 }
 
 .legal{
-    display: flex;
+    display: none;
  justify-content: flex-start;
     gap: 230px;
     width: 100%;
